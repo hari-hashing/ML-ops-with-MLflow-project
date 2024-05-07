@@ -25,3 +25,8 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
 )
+
+# this setup file will look for the constructor file wherever it is 
+# here the constructor file is __init__.py and install it as my local package
+# to import data lets say from src componenets you need the setup file to first
+# install it as the local package and then import the data 
