@@ -1,0 +1,16 @@
+pandas
+mlflow
+notebook
+numpy
+scikit-learn
+matplotlib
+python-box
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-pyYAML
+Flask
+Flask-Cors
+# to install the setup.py we have to metion -e . it will do it automatically 
+-e .
